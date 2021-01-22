@@ -1,6 +1,6 @@
 function Set-TomatoNat {
     param(
-        $server = "192.168.145.1",
+        $server,
         $credential = (Get-Credential),
         [parameter(ParameterSetName = "Enable",Mandatory)]
         [switch]$enable,
